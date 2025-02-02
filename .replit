@@ -1,0 +1,24 @@
+modules = ["python-3.10"]
+run = ["sh", "-c", "uvicorn main:app --reload --host 0.0.0.0 --port 8000 --log-level debug"]
+
+
+[nix]
+channel = "stable-23_05"
+
+[unitTest]
+language = "python3"
+
+[gitHubImport]
+requiredFiles = [".replit", "replit.nix"]
+
+[deployment]
+run = ["sh", "-c", "uvicorn main:app --reload --host 0.0.0.0 --port 8000 --log-level debug"]
+
+deploymentTarget = "cloudrun"
+
+[objectStorage]
+defaultBucketID = "replit-objstore-6ce03b58-92ed-4e4e-a2e7-6a1c88770aef"
+
+[[ports]]
+localPort = 8000
+externalPort = 80

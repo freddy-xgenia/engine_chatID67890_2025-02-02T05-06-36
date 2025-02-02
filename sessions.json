@@ -1,0 +1,12 @@
+{
+    "5e0f9e7a-d0cf-40b8-926c-b51d4add7897": {
+        "user_id": "dima",
+        "game_id": "12345",
+        "created_at": 1721561749.7203557,
+        "expires_at": 1721565349.7203548,
+        "last_accessed": 1721561749.7203557,
+        "active": true,
+        "wins": 0,
+        "losses": 0
+    }
+}

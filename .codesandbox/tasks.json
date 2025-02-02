@@ -1,0 +1,10 @@
+{
+    "$schema": "https://codesandbox.io/schemas/tasks.json",
+    "tasks": {
+        "run": {
+            "name": "Run App",
+            "command": "chmod +x run.sh; ./run.sh",
+            "runAtStart": true
+        }
+    }
+}
